@@ -20,6 +20,8 @@
 		7FFFAE612264B3C70039FB6B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFAE602264B3C70039FB6B /* ExtensionDelegate.swift */; };
 		7FFFAE632264B3C70039FB6B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFAE622264B3C70039FB6B /* NotificationController.swift */; };
 		7FFFAE652264B3C80039FB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFFAE642264B3C80039FB6B /* Assets.xcassets */; };
+		7FFFAE772264B8E40039FB6B /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFAE762264B8E40039FB6B /* Row.swift */; };
+		7FFFAE7A2264BDC40039FB6B /* SessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFAE792264BDC40039FB6B /* SessionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		7FFFAE642264B3C80039FB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FFFAE662264B3C80039FB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFFAE672264B3C80039FB6B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7FFFAE762264B8E40039FB6B /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		7FFFAE792264BDC40039FB6B /* SessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		7FFFAE3A2264B3C50039FB6B /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				7FFFAE782264BDA30039FB6B /* Session Handler */,
 				7FFFAE3B2264B3C50039FB6B /* AppDelegate.swift */,
 				7FFFAE3D2264B3C50039FB6B /* ViewController.swift */,
 				7FFFAE3F2264B3C50039FB6B /* Main.storyboard */,
@@ -149,6 +154,7 @@
 		7FFFAE5D2264B3C70039FB6B /* Test WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7FFFAE752264B8AC0039FB6B /* Table Row */,
 				7FFFAE5E2264B3C70039FB6B /* InterfaceController.swift */,
 				7FFFAE602264B3C70039FB6B /* ExtensionDelegate.swift */,
 				7FFFAE622264B3C70039FB6B /* NotificationController.swift */,
@@ -157,6 +163,22 @@
 				7FFFAE672264B3C80039FB6B /* PushNotificationPayload.apns */,
 			);
 			path = "Test WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7FFFAE752264B8AC0039FB6B /* Table Row */ = {
+			isa = PBXGroup;
+			children = (
+				7FFFAE762264B8E40039FB6B /* Row.swift */,
+			);
+			path = "Table Row";
+			sourceTree = "<group>";
+		};
+		7FFFAE782264BDA30039FB6B /* Session Handler */ = {
+			isa = PBXGroup;
+			children = (
+				7FFFAE792264BDC40039FB6B /* SessionHandler.swift */,
+			);
+			path = "Session Handler";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFFAE3E2264B3C50039FB6B /* ViewController.swift in Sources */,
+				7FFFAE7A2264BDC40039FB6B /* SessionHandler.swift in Sources */,
 				7FFFAE3C2264B3C50039FB6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFFAE772264B8E40039FB6B /* Row.swift in Sources */,
 				7FFFAE632264B3C70039FB6B /* NotificationController.swift in Sources */,
 				7FFFAE612264B3C70039FB6B /* ExtensionDelegate.swift in Sources */,
 				7FFFAE5F2264B3C70039FB6B /* InterfaceController.swift in Sources */,
